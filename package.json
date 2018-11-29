@@ -1,0 +1,56 @@
+{
+  "name": "gitbook-plugin-reward",
+  "version": "1.0.0",
+  "description": "Gitbook 打赏按钮插件",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:unclealan/gitbook-plugin-reward.git"
+  },
+  "keywords": [
+    "gitbook",
+    "plugin",
+    "reward",
+    "alipay",
+    "wechat"
+  ],
+  "author": "FuMing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unclealan/gitbook-plugin-reward/issues"
+  },
+  "homepage": "https://github.com/unclealan/gitbook-plugin-reward",
+  "engines": {
+    "gitbook": "*"
+  },
+  "gitbook": {
+    "properties": {
+      "button": {
+        "type": "string",
+        "title": "Button Text",
+        "required": true,
+        "default": "打赏"
+      },
+      "wechat": {
+        "type": "string",
+        "title": "Wechat QR URL",
+        "default": "http://unclealan.cn/usr/themes/seventeen/dist/images/weixin.JPG"
+      },
+      "alipay": {
+        "type": "string",
+        "title": "Alipay QR URL",
+        "default": "http://unclealan.cn/usr/themes/seventeen/dist/images/alipay.JPG"
+      },
+      "wechatText": {
+        "type": "string",
+        "title": "Wechat QR text",
+        "default": "微信打赏"
+      },
+      "alipayText": {
+        "type": "string",
+        "title": "Alipay QR Text",
+        "default": "支付宝打赏"
+      }
+    }
+  }
+}
