@@ -1,4 +1,4 @@
-# Gitbook Donate Plugin
+# Gitbook Reward Plugin
 
 Config:
 
